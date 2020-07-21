@@ -1,0 +1,115 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Default suite</th></tr>
+<tr><td><a href="#t0">Default test</a></td><td class="num">11</td><td class="num">0</td><td class="num">0</td><td class="num attn">3</td><td class="num">191,099</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="3">com.katalyst.ensoul.tests.ProfileTest</td><td><a href="#m0">ChkEmailUname</a></td><td rowspan="1">1594363540555</td><td rowspan="1">74</td></tr><tr class="failedeven"><td><a href="#m1">NullPassword</a></td><td rowspan="1">1594363369264</td><td rowspan="1">145</td></tr><tr class="failedeven"><td><a href="#m2">PasswordReset</a></td><td rowspan="1">1594363369079</td><td rowspan="1">181</td></tr><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="10">com.katalyst.ensoul.tests.ProfileTest</td><td><a href="#m3">BMPImgUpload</a></td><td rowspan="1">1594363513454</td><td rowspan="1">13445</td></tr><tr class="passedeven"><td><a href="#m4">CharSpecial</a></td><td rowspan="1">1594363408356</td><td rowspan="1">20404</td></tr><tr class="passedeven"><td><a href="#m5">Combine</a></td><td rowspan="1">1594363450972</td><td rowspan="1">21346</td></tr><tr class="passedeven"><td><a href="#m6">GIFImgUpload</a></td><td rowspan="1">1594363499793</td><td rowspan="1">13460</td></tr><tr class="passedeven"><td><a href="#m7">JPGImgUpload</a></td><td rowspan="1">1594363472515</td><td rowspan="1">13531</td></tr><tr class="passedeven"><td><a href="#m8">NumericAplha</a></td><td rowspan="1">1594363388736</td><td rowspan="1">19377</td></tr><tr class="passedeven"><td><a href="#m9">OnlyChar</a></td><td rowspan="1">1594363369537</td><td rowspan="1">18950</td></tr><tr class="passedeven"><td><a href="#m10">OnlyNumbers</a></td><td rowspan="1">1594363428948</td><td rowspan="1">21871</td></tr><tr class="passedeven"><td><a href="#m11">PNGImgUpload</a></td><td rowspan="1">1594363486230</td><td rowspan="1">13379</td></tr><tr class="passedeven"><td><a href="#m12">TXTImgUpload</a></td><td rowspan="1">1594363527056</td><td rowspan="1">13431</td></tr><tr class="passedodd"><td rowspan="1">com.katalyst.ensoul.tests.WorkEmailLoginTest</td><td><a href="#m13">LoginToApplication</a></td><td rowspan="1">1594363350910</td><td rowspan="1">17633</td></tr></tbody>
+</table>
+<h2>Default test</h2><h3 id="m0">com.katalyst.ensoul.tests.ProfileTest#ChkEmailUname</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.internal.reflect.MethodMatcherException: 
+[public void com.katalyst.ensoul.tests.ProfileTest.ChkEmailUname() throws java.lang.Exception] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
+Data provider mismatch
+Method: ChkEmailUname([])
+Arguments: [(java.lang.String) 12345678,(java.lang.String) 12345678,(java.lang.String) /EnsoulAutomationFramework/img/2.jpg,(java.lang.String) /EnsoulAutomationFramework/img/1.png,(java.lang.String) /EnsoulAutomationFramework/img/4.BMP,(java.lang.String) /EnsoulAutomationFramework/img/3.gif]
+	at org.testng.internal.reflect.DataProviderMethodMatcher.getConformingArguments(DataProviderMethodMatcher.java:43)
+	at org.testng.internal.Parameters.injectParameters(Parameters.java:905)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:34)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:821)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(Unknown Source)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:588)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
+	at org.testng.TestNG.runSuites(TestNG.java:1066)
+	at org.testng.TestNG.run(TestNG.java:1034)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.katalyst.ensoul.tests.ProfileTest#NullPassword</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.internal.reflect.MethodMatcherException: 
+[public void com.katalyst.ensoul.tests.ProfileTest.NullPassword() throws java.lang.Exception] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
+Data provider mismatch
+Method: NullPassword([])
+Arguments: [(java.lang.String) 12345678,(java.lang.String) 12345678,(java.lang.String) /EnsoulAutomationFramework/img/2.jpg,(java.lang.String) /EnsoulAutomationFramework/img/1.png,(java.lang.String) /EnsoulAutomationFramework/img/4.BMP,(java.lang.String) /EnsoulAutomationFramework/img/3.gif]
+	at org.testng.internal.reflect.DataProviderMethodMatcher.getConformingArguments(DataProviderMethodMatcher.java:43)
+	at org.testng.internal.Parameters.injectParameters(Parameters.java:905)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:34)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:821)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(Unknown Source)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:588)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
+	at org.testng.TestNG.runSuites(TestNG.java:1066)
+	at org.testng.TestNG.run(TestNG.java:1034)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.katalyst.ensoul.tests.ProfileTest#PasswordReset</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.internal.reflect.MethodMatcherException: 
+[public void com.katalyst.ensoul.tests.ProfileTest.PasswordReset() throws java.lang.Exception] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
+Data provider mismatch
+Method: PasswordReset([])
+Arguments: [(java.lang.String) 12345678,(java.lang.String) 12345678,(java.lang.String) /EnsoulAutomationFramework/img/2.jpg,(java.lang.String) /EnsoulAutomationFramework/img/1.png,(java.lang.String) /EnsoulAutomationFramework/img/4.BMP,(java.lang.String) /EnsoulAutomationFramework/img/3.gif]
+	at org.testng.internal.reflect.DataProviderMethodMatcher.getConformingArguments(DataProviderMethodMatcher.java:43)
+	at org.testng.internal.Parameters.injectParameters(Parameters.java:905)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:34)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:821)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(Unknown Source)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:588)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
+	at org.testng.TestNG.runSuites(TestNG.java:1066)
+	at org.testng.TestNG.run(TestNG.java:1034)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.katalyst.ensoul.tests.ProfileTest#BMPImgUpload</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>[12345678, 12345678, /EnsoulAutomationFramework/img/2.jpg, /EnsoulAutomationFramework/img/1.png, /EnsoulAutomationFramework/img/4.BMP, /EnsoulAutomationFramework/img/3.gif]</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.katalyst.ensoul.tests.ProfileTest#CharSpecial</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>[12345678, 12345678, /EnsoulAutomationFramework/img/2.jpg, /EnsoulAutomationFramework/img/1.png, /EnsoulAutomationFramework/img/4.BMP, /EnsoulAutomationFramework/img/3.gif]</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.katalyst.ensoul.tests.ProfileTest#Combine</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>[12345678, 12345678, /EnsoulAutomationFramework/img/2.jpg, /EnsoulAutomationFramework/img/1.png, /EnsoulAutomationFramework/img/4.BMP, /EnsoulAutomationFramework/img/3.gif]</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.katalyst.ensoul.tests.ProfileTest#GIFImgUpload</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>[12345678, 12345678, /EnsoulAutomationFramework/img/2.jpg, /EnsoulAutomationFramework/img/1.png, /EnsoulAutomationFramework/img/4.BMP, /EnsoulAutomationFramework/img/3.gif]</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.katalyst.ensoul.tests.ProfileTest#JPGImgUpload</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>[12345678, 12345678, /EnsoulAutomationFramework/img/2.jpg, /EnsoulAutomationFramework/img/1.png, /EnsoulAutomationFramework/img/4.BMP, /EnsoulAutomationFramework/img/3.gif]</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.katalyst.ensoul.tests.ProfileTest#NumericAplha</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>[12345678, 12345678, /EnsoulAutomationFramework/img/2.jpg, /EnsoulAutomationFramework/img/1.png, /EnsoulAutomationFramework/img/4.BMP, /EnsoulAutomationFramework/img/3.gif]</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">com.katalyst.ensoul.tests.ProfileTest#OnlyChar</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>[12345678, 12345678, /EnsoulAutomationFramework/img/2.jpg, /EnsoulAutomationFramework/img/1.png, /EnsoulAutomationFramework/img/4.BMP, /EnsoulAutomationFramework/img/3.gif]</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">com.katalyst.ensoul.tests.ProfileTest#OnlyNumbers</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>[12345678, 12345678, /EnsoulAutomationFramework/img/2.jpg, /EnsoulAutomationFramework/img/1.png, /EnsoulAutomationFramework/img/4.BMP, /EnsoulAutomationFramework/img/3.gif]</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">com.katalyst.ensoul.tests.ProfileTest#PNGImgUpload</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>[12345678, 12345678, /EnsoulAutomationFramework/img/2.jpg, /EnsoulAutomationFramework/img/1.png, /EnsoulAutomationFramework/img/4.BMP, /EnsoulAutomationFramework/img/3.gif]</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">com.katalyst.ensoul.tests.ProfileTest#TXTImgUpload</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>[12345678, 12345678, /EnsoulAutomationFramework/img/2.jpg, /EnsoulAutomationFramework/img/1.png, /EnsoulAutomationFramework/img/4.BMP, /EnsoulAutomationFramework/img/3.gif]</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">com.katalyst.ensoul.tests.WorkEmailLoginTest#LoginToApplication</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>[ppawar@katalysttech.com, Pravin@@88, ppawar@katalysttech.com, Pravin@@88]</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

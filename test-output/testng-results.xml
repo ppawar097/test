@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="3" ignored="2" total="16" passed="11">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="191099" started-at="2020-07-10T12:12:29 IST" finished-at="2020-07-10T12:15:40 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="191099" started-at="2020-07-10T12:12:29 IST" finished-at="2020-07-10T12:15:40 IST">
+      <class name="com.katalyst.ensoul.tests.ProfileTest">
+        <test-method status="FAIL" signature="PasswordReset()[pri:1, instance:com.katalyst.ensoul.tests.ProfileTest@359f7cdf]" name="PasswordReset" duration-ms="181" started-at="2020-07-10T12:12:49 IST" data-provider="d_profile" finished-at="2020-07-10T12:12:49 IST">
+          <exception class="org.testng.internal.reflect.MethodMatcherException">
+            <message>
+              <![CDATA[
+[public void com.katalyst.ensoul.tests.ProfileTest.PasswordReset() throws java.lang.Exception] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
+Data provider mismatch
+Method: PasswordReset([])
+Arguments: [(java.lang.String) 12345678,(java.lang.String) 12345678,(java.lang.String) /EnsoulAutomationFramework/img/2.jpg,(java.lang.String) /EnsoulAutomationFramework/img/1.png,(java.lang.String) /EnsoulAutomationFramework/img/4.BMP,(java.lang.String) /EnsoulAutomationFramework/img/3.gif]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.internal.reflect.MethodMatcherException: 
+[public void com.katalyst.ensoul.tests.ProfileTest.PasswordReset() throws java.lang.Exception] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
+Data provider mismatch
+Method: PasswordReset([])
+Arguments: [(java.lang.String) 12345678,(java.lang.String) 12345678,(java.lang.String) /EnsoulAutomationFramework/img/2.jpg,(java.lang.String) /EnsoulAutomationFramework/img/1.png,(java.lang.String) /EnsoulAutomationFramework/img/4.BMP,(java.lang.String) /EnsoulAutomationFramework/img/3.gif]
+at org.testng.internal.reflect.DataProviderMethodMatcher.getConformingArguments(DataProviderMethodMatcher.java:43)
+at org.testng.internal.Parameters.injectParameters(Parameters.java:905)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:34)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:821)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:767)
+at org.testng.TestRunner.run(TestRunner.java:588)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
+at org.testng.TestNG.runSuites(TestNG.java:1066)
+at org.testng.TestNG.run(TestNG.java:1034)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.internal.reflect.MethodMatcherException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PasswordReset -->
+        <test-method status="FAIL" signature="NullPassword()[pri:2, instance:com.katalyst.ensoul.tests.ProfileTest@359f7cdf]" name="NullPassword" duration-ms="145" started-at="2020-07-10T12:12:49 IST" data-provider="d_profile" finished-at="2020-07-10T12:12:49 IST">
+          <exception class="org.testng.internal.reflect.MethodMatcherException">
+            <message>
+              <![CDATA[
+[public void com.katalyst.ensoul.tests.ProfileTest.NullPassword() throws java.lang.Exception] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
+Data provider mismatch
+Method: NullPassword([])
+Arguments: [(java.lang.String) 12345678,(java.lang.String) 12345678,(java.lang.String) /EnsoulAutomationFramework/img/2.jpg,(java.lang.String) /EnsoulAutomationFramework/img/1.png,(java.lang.String) /EnsoulAutomationFramework/img/4.BMP,(java.lang.String) /EnsoulAutomationFramework/img/3.gif]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.internal.reflect.MethodMatcherException: 
+[public void com.katalyst.ensoul.tests.ProfileTest.NullPassword() throws java.lang.Exception] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
+Data provider mismatch
+Method: NullPassword([])
+Arguments: [(java.lang.String) 12345678,(java.lang.String) 12345678,(java.lang.String) /EnsoulAutomationFramework/img/2.jpg,(java.lang.String) /EnsoulAutomationFramework/img/1.png,(java.lang.String) /EnsoulAutomationFramework/img/4.BMP,(java.lang.String) /EnsoulAutomationFramework/img/3.gif]
+at org.testng.internal.reflect.DataProviderMethodMatcher.getConformingArguments(DataProviderMethodMatcher.java:43)
+at org.testng.internal.Parameters.injectParameters(Parameters.java:905)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:34)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:821)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:767)
+at org.testng.TestRunner.run(TestRunner.java:588)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
+at org.testng.TestNG.runSuites(TestNG.java:1066)
+at org.testng.TestNG.run(TestNG.java:1034)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.internal.reflect.MethodMatcherException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NullPassword -->
+        <test-method status="PASS" signature="OnlyChar([Ljava.lang.String;)[pri:3, instance:com.katalyst.ensoul.tests.ProfileTest@359f7cdf]" name="OnlyChar" duration-ms="18950" started-at="2020-07-10T12:12:49 IST" data-provider="d_profile" finished-at="2020-07-10T12:13:08 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@60deefed]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OnlyChar -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.katalyst.ensoul.tests.ProfileTest@359f7cdf]" name="getResult" is-config="true" duration-ms="99" started-at="2020-07-10T12:13:08 IST" finished-at="2020-07-10T12:13:08 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=OnlyChar status=SUCCESS method=ProfileTest.OnlyChar([Ljava.lang.String;)[pri:3, instance:com.katalyst.ensoul.tests.ProfileTest@359f7cdf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="NumericAplha([Ljava.lang.String;)[pri:4, instance:com.katalyst.ensoul.tests.ProfileTest@359f7cdf]" name="NumericAplha" duration-ms="19377" started-at="2020-07-10T12:13:08 IST" data-provider="d_profile" finished-at="2020-07-10T12:13:28 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@736b21ee]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NumericAplha -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.katalyst.ensoul.tests.ProfileTest@359f7cdf]" name="getResult" is-config="true" duration-ms="82" started-at="2020-07-10T12:13:28 IST" finished-at="2020-07-10T12:13:28 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=NumericAplha status=SUCCESS method=ProfileTest.NumericAplha([Ljava.lang.String;)[pri:4, instance:com.katalyst.ensoul.tests.ProfileTest@359f7cdf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="CharSpecial([Ljava.lang.String;)[pri:5, instance:com.katalyst.ensoul.tests.ProfileTest@359f7cdf]" name="CharSpecial" duration-ms="20404" started-at="2020-07-10T12:13:28 IST" data-provider="d_profile" finished-at="2020-07-10T12:13:48 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@582a3b19]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CharSpecial -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.katalyst.ensoul.tests.ProfileTest@359f7cdf]" name="getResult" is-config="true" duration-ms="91" started-at="2020-07-10T12:13:48 IST" finished-at="2020-07-10T12:13:48 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CharSpecial status=SUCCESS method=ProfileTest.CharSpecial([Ljava.lang.String;)[pri:5, instance:com.katalyst.ensoul.tests.ProfileTest@359f7cdf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="OnlyNumbers([Ljava.lang.String;)[pri:6, instance:com.katalyst.ensoul.tests.ProfileTest@359f7cdf]" name="OnlyNumbers" duration-ms="21871" started-at="2020-07-10T12:13:48 IST" data-provider="d_profile" finished-at="2020-07-10T12:14:10 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@49754e74]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OnlyNumbers -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.katalyst.ensoul.tests.ProfileTest@359f7cdf]" name="getResult" is-config="true" duration-ms="54" started-at="2020-07-10T12:14:10 IST" finished-at="2020-07-10T12:14:10 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=OnlyNumbers status=SUCCESS method=ProfileTest.OnlyNumbers([Ljava.lang.String;)[pri:6, instance:com.katalyst.ensoul.tests.ProfileTest@359f7cdf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="Combine([Ljava.lang.String;)[pri:7, instance:com.katalyst.ensoul.tests.ProfileTest@359f7cdf]" name="Combine" duration-ms="21346" started-at="2020-07-10T12:14:10 IST" data-provider="d_profile" finished-at="2020-07-10T12:14:32 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@2b0454d2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Combine -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.katalyst.ensoul.tests.ProfileTest@359f7cdf]" name="getResult" is-config="true" duration-ms="104" started-at="2020-07-10T12:14:32 IST" finished-at="2020-07-10T12:14:32 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Combine status=SUCCESS method=ProfileTest.Combine([Ljava.lang.String;)[pri:7, instance:com.katalyst.ensoul.tests.ProfileTest@359f7cdf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="JPGImgUpload([Ljava.lang.String;)[pri:8, instance:com.katalyst.ensoul.tests.ProfileTest@359f7cdf]" name="JPGImgUpload" duration-ms="13531" started-at="2020-07-10T12:14:32 IST" data-provider="d_profile" finished-at="2020-07-10T12:14:46 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@73bb573d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- JPGImgUpload -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.katalyst.ensoul.tests.ProfileTest@359f7cdf]" name="getResult" is-config="true" duration-ms="71" started-at="2020-07-10T12:14:46 IST" finished-at="2020-07-10T12:14:46 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=JPGImgUpload status=SUCCESS method=ProfileTest.JPGImgUpload([Ljava.lang.String;)[pri:8, instance:com.katalyst.ensoul.tests.ProfileTest@359f7cdf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="PNGImgUpload([Ljava.lang.String;)[pri:9, instance:com.katalyst.ensoul.tests.ProfileTest@359f7cdf]" name="PNGImgUpload" duration-ms="13379" started-at="2020-07-10T12:14:46 IST" data-provider="d_profile" finished-at="2020-07-10T12:14:59 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@31881aa2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PNGImgUpload -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.katalyst.ensoul.tests.ProfileTest@359f7cdf]" name="getResult" is-config="true" duration-ms="95" started-at="2020-07-10T12:14:59 IST" finished-at="2020-07-10T12:14:59 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=PNGImgUpload status=SUCCESS method=ProfileTest.PNGImgUpload([Ljava.lang.String;)[pri:9, instance:com.katalyst.ensoul.tests.ProfileTest@359f7cdf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="GIFImgUpload([Ljava.lang.String;)[pri:10, instance:com.katalyst.ensoul.tests.ProfileTest@359f7cdf]" name="GIFImgUpload" duration-ms="13460" started-at="2020-07-10T12:14:59 IST" data-provider="d_profile" finished-at="2020-07-10T12:15:13 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@2616b618]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GIFImgUpload -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.katalyst.ensoul.tests.ProfileTest@359f7cdf]" name="getResult" is-config="true" duration-ms="97" started-at="2020-07-10T12:15:13 IST" finished-at="2020-07-10T12:15:13 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=GIFImgUpload status=SUCCESS method=ProfileTest.GIFImgUpload([Ljava.lang.String;)[pri:10, instance:com.katalyst.ensoul.tests.ProfileTest@359f7cdf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="BMPImgUpload([Ljava.lang.String;)[pri:11, instance:com.katalyst.ensoul.tests.ProfileTest@359f7cdf]" name="BMPImgUpload" duration-ms="13445" started-at="2020-07-10T12:15:13 IST" data-provider="d_profile" finished-at="2020-07-10T12:15:26 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@4b93dd6a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BMPImgUpload -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.katalyst.ensoul.tests.ProfileTest@359f7cdf]" name="getResult" is-config="true" duration-ms="63" started-at="2020-07-10T12:15:26 IST" finished-at="2020-07-10T12:15:26 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=BMPImgUpload status=SUCCESS method=ProfileTest.BMPImgUpload([Ljava.lang.String;)[pri:11, instance:com.katalyst.ensoul.tests.ProfileTest@359f7cdf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="TXTImgUpload([Ljava.lang.String;)[pri:12, instance:com.katalyst.ensoul.tests.ProfileTest@359f7cdf]" name="TXTImgUpload" duration-ms="13431" started-at="2020-07-10T12:15:27 IST" data-provider="d_profile" finished-at="2020-07-10T12:15:40 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@1b46392c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TXTImgUpload -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.katalyst.ensoul.tests.ProfileTest@359f7cdf]" name="getResult" is-config="true" duration-ms="67" started-at="2020-07-10T12:15:40 IST" finished-at="2020-07-10T12:15:40 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TXTImgUpload status=SUCCESS method=ProfileTest.TXTImgUpload([Ljava.lang.String;)[pri:12, instance:com.katalyst.ensoul.tests.ProfileTest@359f7cdf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="FAIL" signature="ChkEmailUname()[pri:13, instance:com.katalyst.ensoul.tests.ProfileTest@359f7cdf]" name="ChkEmailUname" duration-ms="74" started-at="2020-07-10T12:15:40 IST" data-provider="d_profile" finished-at="2020-07-10T12:15:40 IST">
+          <exception class="org.testng.internal.reflect.MethodMatcherException">
+            <message>
+              <![CDATA[
+[public void com.katalyst.ensoul.tests.ProfileTest.ChkEmailUname() throws java.lang.Exception] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
+Data provider mismatch
+Method: ChkEmailUname([])
+Arguments: [(java.lang.String) 12345678,(java.lang.String) 12345678,(java.lang.String) /EnsoulAutomationFramework/img/2.jpg,(java.lang.String) /EnsoulAutomationFramework/img/1.png,(java.lang.String) /EnsoulAutomationFramework/img/4.BMP,(java.lang.String) /EnsoulAutomationFramework/img/3.gif]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.internal.reflect.MethodMatcherException: 
+[public void com.katalyst.ensoul.tests.ProfileTest.ChkEmailUname() throws java.lang.Exception] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
+Data provider mismatch
+Method: ChkEmailUname([])
+Arguments: [(java.lang.String) 12345678,(java.lang.String) 12345678,(java.lang.String) /EnsoulAutomationFramework/img/2.jpg,(java.lang.String) /EnsoulAutomationFramework/img/1.png,(java.lang.String) /EnsoulAutomationFramework/img/4.BMP,(java.lang.String) /EnsoulAutomationFramework/img/3.gif]
+at org.testng.internal.reflect.DataProviderMethodMatcher.getConformingArguments(DataProviderMethodMatcher.java:43)
+at org.testng.internal.Parameters.injectParameters(Parameters.java:905)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:34)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:821)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:767)
+at org.testng.TestRunner.run(TestRunner.java:588)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
+at org.testng.TestNG.runSuites(TestNG.java:1066)
+at org.testng.TestNG.run(TestNG.java:1034)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.internal.reflect.MethodMatcherException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChkEmailUname -->
+      </class> <!-- com.katalyst.ensoul.tests.ProfileTest -->
+      <class name="com.katalyst.ensoul.tests.WorkEmailLoginTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.katalyst.ensoul.tests.WorkEmailLoginTest@4f18837a]" name="setUp" is-config="true" duration-ms="10528" started-at="2020-07-10T12:12:19 IST" finished-at="2020-07-10T12:12:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="LoginToApplication([Ljava.lang.String;)[pri:3, instance:com.katalyst.ensoul.tests.WorkEmailLoginTest@4f18837a]" name="LoginToApplication" duration-ms="17633" started-at="2020-07-10T12:12:30 IST" data-provider="d_workEmail" finished-at="2020-07-10T12:12:48 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@7ac058a0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginToApplication -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.katalyst.ensoul.tests.WorkEmailLoginTest@4f18837a]" name="getResult" is-config="true" duration-ms="509" started-at="2020-07-10T12:12:48 IST" finished-at="2020-07-10T12:12:49 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginToApplication status=SUCCESS method=WorkEmailLoginTest.LoginToApplication([Ljava.lang.String;)[pri:3, instance:com.katalyst.ensoul.tests.WorkEmailLoginTest@4f18837a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.katalyst.ensoul.tests.WorkEmailLoginTest@4f18837a]" name="tearDown" is-config="true" duration-ms="5839" started-at="2020-07-10T12:15:40 IST" finished-at="2020-07-10T12:15:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.katalyst.ensoul.tests.WorkEmailLoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
